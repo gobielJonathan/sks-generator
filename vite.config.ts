@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-   assetsInclude: ['**/*.xlsx'],
+  assetsInclude: ['**/*.xlsx'],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
